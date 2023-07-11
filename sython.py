@@ -107,7 +107,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        name = f"chithon  | {HM}"
+        name = f"stack | {HM}"
         LOGS.info(name)
         try:
             await sython(
@@ -131,7 +131,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        bio = f"chithon  |️ {HM}"
+        bio = f"stack  |️ {HM}"
         LOGS.info(bio)
         try:
             await sython(
